@@ -95,7 +95,7 @@ Be concise. Use bullet points starting with ✅ for matches and ❌ for gaps."""
                 api_key=api_key,
                 base_url="https://api.groq.com/openai/v1",
             )
-            model_id = "llama3-8b-8192"
+            model_id = "llama-3.3-70b-versatile"
         else:
             client = openai.OpenAI(api_key=api_key)
             model_id = "gpt-3.5-turbo"
